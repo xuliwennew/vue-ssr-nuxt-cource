@@ -1,0 +1,28 @@
+{
+  "name": "vue-server-renderer-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "c": "webpack --config ./build/webpack.client.config.js -w",
+    "s": "webpack --config ./build/webpack.server.config.js -w",
+    "st":"nodemon ./dist/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "vue-loader": "^15.8.3",
+    "vue-server-renderer": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
