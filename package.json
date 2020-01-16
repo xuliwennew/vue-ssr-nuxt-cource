@@ -6,13 +6,16 @@
   "scripts": {
     "c": "webpack --config ./build/webpack.client.config.js -w",
     "s": "webpack --config ./build/webpack.server.config.js -w",
-    "st":"nodemon ./dist/server"
+    "st": "nodemon ./dist/server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.1",
+    "echarts": "^4.6.0",
     "vue": "^2.6.11",
+    "vue-giant-tree": "^0.1.2",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {

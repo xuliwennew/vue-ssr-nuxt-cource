@@ -12,6 +12,9 @@ module.exports = {
     resolve:{
         extensions:[".css",".js",".vue"]
     },
+    externals:{
+        "echarts":"echarts"
+    },
     module:{
         rules:[
             {
